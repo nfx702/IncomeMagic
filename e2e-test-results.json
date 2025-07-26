@@ -1,0 +1,164 @@
+{
+  "pages": [
+    {
+      "name": "Dashboard",
+      "path": "/",
+      "success": true,
+      "loadTime": 132,
+      "errors": [],
+      "statusCode": 200,
+      "glassCards": 17
+    },
+    {
+      "name": "Analytics",
+      "path": "/analytics",
+      "success": true,
+      "loadTime": 45,
+      "errors": [],
+      "statusCode": 200,
+      "glassCards": 10
+    },
+    {
+      "name": "Analytics Forecast",
+      "path": "/analytics/forecast",
+      "success": true,
+      "loadTime": 41,
+      "errors": [],
+      "statusCode": 200,
+      "glassCards": 8
+    },
+    {
+      "name": "Analytics Monthly",
+      "path": "/analytics/monthly",
+      "success": true,
+      "loadTime": 38,
+      "errors": [],
+      "statusCode": 200,
+      "glassCards": 1
+    },
+    {
+      "name": "Analytics Targets",
+      "path": "/analytics/targets",
+      "success": true,
+      "loadTime": 37,
+      "errors": [],
+      "statusCode": 200,
+      "glassCards": 7
+    },
+    {
+      "name": "Analytics Dividends",
+      "path": "/analytics/dividends",
+      "success": true,
+      "loadTime": 42,
+      "errors": [],
+      "statusCode": 200,
+      "glassCards": 3
+    },
+    {
+      "name": "Positions",
+      "path": "/positions",
+      "success": true,
+      "loadTime": 36,
+      "errors": [],
+      "statusCode": 200,
+      "glassCards": 15
+    },
+    {
+      "name": "Recommendations",
+      "path": "/recommendations",
+      "success": true,
+      "loadTime": 71,
+      "errors": [],
+      "statusCode": 200,
+      "glassCards": 16
+    },
+    {
+      "name": "Sentiment",
+      "path": "/sentiment",
+      "success": true,
+      "loadTime": 33,
+      "errors": [],
+      "statusCode": 200,
+      "glassCards": 2
+    },
+    {
+      "name": "Settings",
+      "path": "/settings",
+      "success": true,
+      "loadTime": 187,
+      "errors": [],
+      "statusCode": 200,
+      "glassCards": 1
+    }
+  ],
+  "apis": [
+    {
+      "name": "Trades",
+      "path": "/api/trades",
+      "method": "GET",
+      "success": true,
+      "responseTime": 96,
+      "statusCode": 200,
+      "hasData": true
+    },
+    {
+      "name": "Analytics",
+      "path": "/api/analytics",
+      "method": "GET",
+      "success": true,
+      "responseTime": 80,
+      "statusCode": 200,
+      "hasData": true
+    },
+    {
+      "name": "Recommendations",
+      "path": "/api/recommendations",
+      "method": "GET",
+      "success": false,
+      "responseTime": 9,
+      "statusCode": 405
+    },
+    {
+      "name": "Sentiment",
+      "path": "/api/sentiment",
+      "method": "POST",
+      "body": {
+        "symbols": [
+          "SPY"
+        ]
+      },
+      "success": true,
+      "responseTime": 4,
+      "statusCode": 200,
+      "hasData": true
+    },
+    {
+      "name": "Trading Ideas",
+      "path": "/api/trading-ideas",
+      "method": "GET",
+      "success": true,
+      "responseTime": 3,
+      "statusCode": 200,
+      "hasData": true
+    }
+  ],
+  "navigation": {
+    "tested": true,
+    "working": true
+  },
+  "theme": {
+    "tested": false,
+    "working": false
+  },
+  "glassmorphic": {
+    "cardsFound": 80,
+    "pagesWithCards": 10
+  },
+  "performance": {
+    "totalLoadTime": 1209,
+    "domNodes": 972,
+    "domContentLoaded": 0,
+    "loadComplete": 0
+  },
+  "errors": []
+}

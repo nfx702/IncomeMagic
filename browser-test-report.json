@@ -1,0 +1,1641 @@
+{
+  "timestamp": "2025-07-26T13:03:54.859Z",
+  "summary": {
+    "totalPages": 9,
+    "totalErrors": 102,
+    "totalWarnings": 45,
+    "totalNetworkErrors": 102,
+    "status": "FAIL"
+  },
+  "pages": [
+    {
+      "name": "Dashboard",
+      "url": "http://localhost:3000",
+      "status": "FAIL",
+      "errorCount": 10,
+      "warningCount": 5,
+      "networkErrorCount": 10,
+      "performance": {
+        "page": "Dashboard",
+        "loadTime": 3861,
+        "domContentLoaded": 0,
+        "firstContentfulPaint": 0
+      },
+      "errors": [
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+          "page": "Dashboard"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Dashboard"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Dashboard"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Dashboard"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Dashboard"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Dashboard"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Dashboard"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Dashboard"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Dashboard"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Dashboard"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "Console Warning",
+          "message": "The resource http://localhost:3000/_next/static/media/0484562807a97172-s.p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+          "page": "Dashboard"
+        },
+        {
+          "type": "Console Warning",
+          "message": "The resource http://localhost:3000/_next/static/media/eafabf029ad39a43-s.p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+          "page": "Dashboard"
+        },
+        {
+          "type": "Console Warning",
+          "message": "The resource http://localhost:3000/_next/static/media/8888a3826f4a3af4-s.p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+          "page": "Dashboard"
+        },
+        {
+          "type": "Console Warning",
+          "message": "The resource http://localhost:3000/_next/static/media/b957ea75a84b6ea7-s.p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+          "page": "Dashboard"
+        },
+        {
+          "type": "Console Warning",
+          "message": "The resource http://localhost:3000/_next/static/media/4c285fdca692ea22-s.p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+          "page": "Dashboard"
+        }
+      ],
+      "networkErrors": [
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/",
+          "status": 500,
+          "statusText": "Internal Server Error",
+          "page": "Dashboard"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/webpack.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Dashboard"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/npm.next.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Dashboard"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/react-refresh.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Dashboard"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/npm.react.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Dashboard"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/npm.scheduler.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Dashboard"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/npm.react-dom.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Dashboard"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/pages/_app.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Dashboard"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/main.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Dashboard"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/pages/_error.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Dashboard"
+        }
+      ]
+    },
+    {
+      "name": "Analytics",
+      "url": "http://localhost:3000/analytics",
+      "status": "FAIL",
+      "errorCount": 10,
+      "warningCount": 5,
+      "networkErrorCount": 10,
+      "performance": {
+        "page": "Analytics",
+        "loadTime": 3140,
+        "domContentLoaded": 0,
+        "firstContentfulPaint": 0
+      },
+      "errors": [
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+          "page": "Analytics"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Analytics"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Analytics"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Analytics"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Analytics"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Analytics"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Analytics"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Analytics"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Analytics"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Analytics"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "Console Warning",
+          "message": "The resource http://localhost:3000/_next/static/media/0484562807a97172-s.p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+          "page": "Analytics"
+        },
+        {
+          "type": "Console Warning",
+          "message": "The resource http://localhost:3000/_next/static/media/eafabf029ad39a43-s.p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+          "page": "Analytics"
+        },
+        {
+          "type": "Console Warning",
+          "message": "The resource http://localhost:3000/_next/static/media/8888a3826f4a3af4-s.p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+          "page": "Analytics"
+        },
+        {
+          "type": "Console Warning",
+          "message": "The resource http://localhost:3000/_next/static/media/b957ea75a84b6ea7-s.p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+          "page": "Analytics"
+        },
+        {
+          "type": "Console Warning",
+          "message": "The resource http://localhost:3000/_next/static/media/4c285fdca692ea22-s.p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+          "page": "Analytics"
+        }
+      ],
+      "networkErrors": [
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/analytics",
+          "status": 500,
+          "statusText": "Internal Server Error",
+          "page": "Analytics"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/npm.next.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Analytics"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/react-refresh.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Analytics"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/webpack.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Analytics"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/npm.react.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Analytics"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/npm.react-dom.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Analytics"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/npm.scheduler.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Analytics"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/pages/_app.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Analytics"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/main.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Analytics"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/pages/_error.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Analytics"
+        }
+      ]
+    },
+    {
+      "name": "Analytics Monthly",
+      "url": "http://localhost:3000/analytics/monthly",
+      "status": "FAIL",
+      "errorCount": 8,
+      "warningCount": 5,
+      "networkErrorCount": 8,
+      "performance": {
+        "page": "Analytics Monthly",
+        "loadTime": 3080,
+        "domContentLoaded": 0.10000000149011612,
+        "firstContentfulPaint": 0
+      },
+      "errors": [
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Analytics Monthly"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Analytics Monthly"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Analytics Monthly"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Analytics Monthly"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Analytics Monthly"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Analytics Monthly"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Analytics Monthly"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Analytics Monthly"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "Console Warning",
+          "message": "The resource http://localhost:3000/_next/static/media/0484562807a97172-s.p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+          "page": "Analytics Monthly"
+        },
+        {
+          "type": "Console Warning",
+          "message": "The resource http://localhost:3000/_next/static/media/eafabf029ad39a43-s.p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+          "page": "Analytics Monthly"
+        },
+        {
+          "type": "Console Warning",
+          "message": "The resource http://localhost:3000/_next/static/media/8888a3826f4a3af4-s.p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+          "page": "Analytics Monthly"
+        },
+        {
+          "type": "Console Warning",
+          "message": "The resource http://localhost:3000/_next/static/media/b957ea75a84b6ea7-s.p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+          "page": "Analytics Monthly"
+        },
+        {
+          "type": "Console Warning",
+          "message": "The resource http://localhost:3000/_next/static/media/4c285fdca692ea22-s.p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+          "page": "Analytics Monthly"
+        }
+      ],
+      "networkErrors": [
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/css/app/layout.css?v=1753535003676",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Analytics Monthly"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/commons.js?v=1753535003676",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Analytics Monthly"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/main-app.js?v=1753535003676",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Analytics Monthly"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/app/layout.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Analytics Monthly"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/app-pages-internals.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Analytics Monthly"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/npm.tabler.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Analytics Monthly"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/npm.date-fns.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Analytics Monthly"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/app/analytics/monthly/page.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Analytics Monthly"
+        }
+      ]
+    },
+    {
+      "name": "Analytics Forecast",
+      "url": "http://localhost:3000/analytics/forecast",
+      "status": "FAIL",
+      "errorCount": 10,
+      "warningCount": 5,
+      "networkErrorCount": 10,
+      "performance": {
+        "page": "Analytics Forecast",
+        "loadTime": 2627,
+        "domContentLoaded": 0,
+        "firstContentfulPaint": 0
+      },
+      "errors": [
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+          "page": "Analytics Forecast"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Analytics Forecast"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Analytics Forecast"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Analytics Forecast"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Analytics Forecast"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Analytics Forecast"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Analytics Forecast"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Analytics Forecast"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Analytics Forecast"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Analytics Forecast"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "Console Warning",
+          "message": "The resource http://localhost:3000/_next/static/media/0484562807a97172-s.p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+          "page": "Analytics Forecast"
+        },
+        {
+          "type": "Console Warning",
+          "message": "The resource http://localhost:3000/_next/static/media/eafabf029ad39a43-s.p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+          "page": "Analytics Forecast"
+        },
+        {
+          "type": "Console Warning",
+          "message": "The resource http://localhost:3000/_next/static/media/8888a3826f4a3af4-s.p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+          "page": "Analytics Forecast"
+        },
+        {
+          "type": "Console Warning",
+          "message": "The resource http://localhost:3000/_next/static/media/b957ea75a84b6ea7-s.p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+          "page": "Analytics Forecast"
+        },
+        {
+          "type": "Console Warning",
+          "message": "The resource http://localhost:3000/_next/static/media/4c285fdca692ea22-s.p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+          "page": "Analytics Forecast"
+        }
+      ],
+      "networkErrors": [
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/analytics/forecast",
+          "status": 500,
+          "statusText": "Internal Server Error",
+          "page": "Analytics Forecast"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/webpack.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Analytics Forecast"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/npm.next.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Analytics Forecast"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/react-refresh.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Analytics Forecast"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/npm.react-dom.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Analytics Forecast"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/npm.react.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Analytics Forecast"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/npm.scheduler.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Analytics Forecast"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/pages/_app.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Analytics Forecast"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/main.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Analytics Forecast"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/pages/_error.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Analytics Forecast"
+        }
+      ]
+    },
+    {
+      "name": "Analytics Targets",
+      "url": "http://localhost:3000/analytics/targets",
+      "status": "FAIL",
+      "errorCount": 10,
+      "warningCount": 5,
+      "networkErrorCount": 10,
+      "performance": {
+        "page": "Analytics Targets",
+        "loadTime": 2629,
+        "domContentLoaded": 0,
+        "firstContentfulPaint": 0
+      },
+      "errors": [
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+          "page": "Analytics Targets"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Analytics Targets"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Analytics Targets"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Analytics Targets"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Analytics Targets"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Analytics Targets"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Analytics Targets"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Analytics Targets"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Analytics Targets"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Analytics Targets"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "Console Warning",
+          "message": "The resource http://localhost:3000/_next/static/media/0484562807a97172-s.p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+          "page": "Analytics Targets"
+        },
+        {
+          "type": "Console Warning",
+          "message": "The resource http://localhost:3000/_next/static/media/eafabf029ad39a43-s.p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+          "page": "Analytics Targets"
+        },
+        {
+          "type": "Console Warning",
+          "message": "The resource http://localhost:3000/_next/static/media/8888a3826f4a3af4-s.p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+          "page": "Analytics Targets"
+        },
+        {
+          "type": "Console Warning",
+          "message": "The resource http://localhost:3000/_next/static/media/b957ea75a84b6ea7-s.p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+          "page": "Analytics Targets"
+        },
+        {
+          "type": "Console Warning",
+          "message": "The resource http://localhost:3000/_next/static/media/4c285fdca692ea22-s.p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+          "page": "Analytics Targets"
+        }
+      ],
+      "networkErrors": [
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/analytics/targets",
+          "status": 500,
+          "statusText": "Internal Server Error",
+          "page": "Analytics Targets"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/webpack.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Analytics Targets"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/react-refresh.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Analytics Targets"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/npm.next.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Analytics Targets"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/npm.react-dom.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Analytics Targets"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/npm.react.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Analytics Targets"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/npm.scheduler.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Analytics Targets"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/main.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Analytics Targets"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/pages/_app.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Analytics Targets"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/pages/_error.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Analytics Targets"
+        }
+      ]
+    },
+    {
+      "name": "Analytics Dividends",
+      "url": "http://localhost:3000/analytics/dividends",
+      "status": "FAIL",
+      "errorCount": 10,
+      "warningCount": 5,
+      "networkErrorCount": 10,
+      "performance": {
+        "page": "Analytics Dividends",
+        "loadTime": 2623,
+        "domContentLoaded": 0,
+        "firstContentfulPaint": 0
+      },
+      "errors": [
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+          "page": "Analytics Dividends"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Analytics Dividends"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Analytics Dividends"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Analytics Dividends"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Analytics Dividends"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Analytics Dividends"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Analytics Dividends"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Analytics Dividends"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Analytics Dividends"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Analytics Dividends"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "Console Warning",
+          "message": "The resource http://localhost:3000/_next/static/media/0484562807a97172-s.p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+          "page": "Analytics Dividends"
+        },
+        {
+          "type": "Console Warning",
+          "message": "The resource http://localhost:3000/_next/static/media/eafabf029ad39a43-s.p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+          "page": "Analytics Dividends"
+        },
+        {
+          "type": "Console Warning",
+          "message": "The resource http://localhost:3000/_next/static/media/8888a3826f4a3af4-s.p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+          "page": "Analytics Dividends"
+        },
+        {
+          "type": "Console Warning",
+          "message": "The resource http://localhost:3000/_next/static/media/b957ea75a84b6ea7-s.p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+          "page": "Analytics Dividends"
+        },
+        {
+          "type": "Console Warning",
+          "message": "The resource http://localhost:3000/_next/static/media/4c285fdca692ea22-s.p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+          "page": "Analytics Dividends"
+        }
+      ],
+      "networkErrors": [
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/analytics/dividends",
+          "status": 500,
+          "statusText": "Internal Server Error",
+          "page": "Analytics Dividends"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/webpack.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Analytics Dividends"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/react-refresh.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Analytics Dividends"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/npm.next.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Analytics Dividends"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/npm.react-dom.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Analytics Dividends"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/npm.react.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Analytics Dividends"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/npm.scheduler.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Analytics Dividends"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/main.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Analytics Dividends"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/pages/_error.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Analytics Dividends"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/pages/_app.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Analytics Dividends"
+        }
+      ]
+    },
+    {
+      "name": "Positions",
+      "url": "http://localhost:3000/positions",
+      "status": "FAIL",
+      "errorCount": 8,
+      "warningCount": 5,
+      "networkErrorCount": 8,
+      "performance": {
+        "page": "Positions",
+        "loadTime": 3254,
+        "domContentLoaded": 0,
+        "firstContentfulPaint": 0
+      },
+      "errors": [
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Positions"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Positions"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Positions"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Positions"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Positions"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Positions"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Positions"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Positions"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "Console Warning",
+          "message": "The resource http://localhost:3000/_next/static/media/0484562807a97172-s.p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+          "page": "Positions"
+        },
+        {
+          "type": "Console Warning",
+          "message": "The resource http://localhost:3000/_next/static/media/eafabf029ad39a43-s.p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+          "page": "Positions"
+        },
+        {
+          "type": "Console Warning",
+          "message": "The resource http://localhost:3000/_next/static/media/8888a3826f4a3af4-s.p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+          "page": "Positions"
+        },
+        {
+          "type": "Console Warning",
+          "message": "The resource http://localhost:3000/_next/static/media/b957ea75a84b6ea7-s.p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+          "page": "Positions"
+        },
+        {
+          "type": "Console Warning",
+          "message": "The resource http://localhost:3000/_next/static/media/4c285fdca692ea22-s.p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+          "page": "Positions"
+        }
+      ],
+      "networkErrors": [
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/css/app/layout.css?v=1753535021070",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Positions"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/commons.js?v=1753535021070",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Positions"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/app/layout.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Positions"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/main-app.js?v=1753535021070",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Positions"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/app-pages-internals.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Positions"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/npm.tabler.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Positions"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/app/positions/page.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Positions"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/npm.date-fns.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Positions"
+        }
+      ]
+    },
+    {
+      "name": "Recommendations",
+      "url": "http://localhost:3000/recommendations",
+      "status": "FAIL",
+      "errorCount": 26,
+      "warningCount": 5,
+      "networkErrorCount": 26,
+      "performance": {
+        "page": "Recommendations",
+        "loadTime": 3651,
+        "domContentLoaded": 0,
+        "firstContentfulPaint": 0
+      },
+      "errors": [
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Recommendations"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "Console Warning",
+          "message": "The resource http://localhost:3000/_next/static/media/eafabf029ad39a43-s.p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Console Warning",
+          "message": "The resource http://localhost:3000/_next/static/media/0484562807a97172-s.p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Console Warning",
+          "message": "The resource http://localhost:3000/_next/static/media/8888a3826f4a3af4-s.p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Console Warning",
+          "message": "The resource http://localhost:3000/_next/static/media/b957ea75a84b6ea7-s.p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Console Warning",
+          "message": "The resource http://localhost:3000/_next/static/media/4c285fdca692ea22-s.p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+          "page": "Recommendations"
+        }
+      ],
+      "networkErrors": [
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/css/app/layout.css?v=1753535026000",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/main-app.js?v=1753535026000",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/commons.js?v=1753535026000",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/app/layout.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/app-pages-internals.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/npm.tabler.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/npm.date-fns.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/npm.recharts.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/npm.d3-shape.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/npm.lodash.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/npm.decimal.js-light.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/npm.prop-types.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/npm.d3-scale.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/npm.react-smooth.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/npm.react-transition-group.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/npm.fast-equals.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/npm.d3-time-format.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/npm.d3-time.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/npm.recharts-scale.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/npm.d3-format.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/npm.d3-array.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/npm.d3-color.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/npm.tailwind-merge.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/npm.radix-ui.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/vendors-_app-pages-browser_node_modules_lucide-react_dist_esm_icons_circle-alert_js-_app-page-dfabf5.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Recommendations"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/app/recommendations/page.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Recommendations"
+        }
+      ]
+    },
+    {
+      "name": "Settings",
+      "url": "http://localhost:3000/settings",
+      "status": "FAIL",
+      "errorCount": 10,
+      "warningCount": 5,
+      "networkErrorCount": 10,
+      "performance": {
+        "page": "Settings",
+        "loadTime": 2620,
+        "domContentLoaded": 0,
+        "firstContentfulPaint": 0
+      },
+      "errors": [
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 500 (Internal Server Error)",
+          "page": "Settings"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Settings"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Settings"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Settings"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Settings"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Settings"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Settings"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Settings"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Settings"
+        },
+        {
+          "type": "Console Error",
+          "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+          "page": "Settings"
+        }
+      ],
+      "warnings": [
+        {
+          "type": "Console Warning",
+          "message": "The resource http://localhost:3000/_next/static/media/0484562807a97172-s.p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+          "page": "Settings"
+        },
+        {
+          "type": "Console Warning",
+          "message": "The resource http://localhost:3000/_next/static/media/eafabf029ad39a43-s.p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+          "page": "Settings"
+        },
+        {
+          "type": "Console Warning",
+          "message": "The resource http://localhost:3000/_next/static/media/8888a3826f4a3af4-s.p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+          "page": "Settings"
+        },
+        {
+          "type": "Console Warning",
+          "message": "The resource http://localhost:3000/_next/static/media/b957ea75a84b6ea7-s.p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+          "page": "Settings"
+        },
+        {
+          "type": "Console Warning",
+          "message": "The resource http://localhost:3000/_next/static/media/4c285fdca692ea22-s.p.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+          "page": "Settings"
+        }
+      ],
+      "networkErrors": [
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/settings",
+          "status": 500,
+          "statusText": "Internal Server Error",
+          "page": "Settings"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/npm.next.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Settings"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/webpack.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Settings"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/react-refresh.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Settings"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/npm.scheduler.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Settings"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/npm.react-dom.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Settings"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/npm.react.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Settings"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/main.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Settings"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/pages/_app.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Settings"
+        },
+        {
+          "type": "Network Error",
+          "url": "http://localhost:3000/_next/static/chunks/fallback/pages/_error.js",
+          "status": 404,
+          "statusText": "Not Found",
+          "page": "Settings"
+        }
+      ]
+    }
+  ]
+}
