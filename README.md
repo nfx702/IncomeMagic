@@ -24,7 +24,7 @@ A comprehensive options trading dashboard designed for wheel strategy traders. A
 
 1. Clone the repository
 ```bash
-git clone [repository-url]
+git clone https://github.com/nfx702/IncomeMagic.git
 cd income-magic
 ```
 
